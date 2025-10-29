@@ -16,9 +16,11 @@
 }
 
 .Title-Container {
-    padding-left : 30px;
+    margin-right : 150px;
+    padding-left: 120px;
     display: flex;
-    gap : 60px;
+    gap : 40px;
     align-items: center;
-    font-size : 13px;
+    font-size : 12.5px;
+    color : white;
 }
