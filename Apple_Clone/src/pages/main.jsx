@@ -17,7 +17,8 @@ function Main() {
                     <a href="#">엔터테인먼트</a>
                     <a href="#">액세서리</a>
                     <a href="#">고객지원</a>
-
+                    <img className = "Search-Img" src = "Search.svg" />
+                    <img className = "Basket-Img" src = "Basket.svg" />
                 </div>
 
             </div>
