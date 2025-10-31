@@ -20,8 +20,17 @@ function Main() {
                     <img className = "Search-Img" src = "Search.svg" />
                     <img className = "Basket-Img" src = "Basket.svg" />
                 </div>
-
             </div>
+
+            <section className = "Main-Poster">
+                <div className = "" ></div>
+                    {/* <h1>iPhone 17 Pro</h1>
+                    <p>전방위 Pro.</p>
+                    <button>더 알아보기</button>
+                    <button>구입하기</button> */}
+                    <img className = "Poster-Img" src = "iPhone2.png" />
+            </section>
+
         </>
     )
 }
