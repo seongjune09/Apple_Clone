@@ -40,11 +40,17 @@
 }
 
 .Main-Poster {
-    background-color: black;
-}
+    position: relative;
+    text-align: center;
+    padding: 70px 0;
+    background-color: #000;
+    color: white;
+    overflow: hidden;
+  }
 
 .Poster-Img {
-    padding-top : 40px;
     width : 1456px;
     height : 400px;
+    bottom: 0;
+    display: block;
 }
