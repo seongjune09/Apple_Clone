@@ -22,7 +22,7 @@ function Main() {
                 </div>
             </div>
 
-            <section className = "Main-Poster">
+            <section className = "iPhone-Poster">
                     <h1 className = "iPhone">iPhone 17 Pro</h1>
                     <p>전방위 Pro.</p>
                 <div className="btn-container">
@@ -30,9 +30,22 @@ function Main() {
                     <button className = "second-btn">구입하기</button>
                 </div>
             </section>
-            <img className = "Poster-Img" src = "/iPhone2.png" />
+            <img className = "Poster-Img" src = "/iPhone.png" />
 
+            <br></br>
+
+            <section className = "AirPods-Poster">
+                    <h1 className = "iPhone">AirPods Pro 3</h1>
+                    <p className='introduction'>세계 최고의 인이어 엑티브 노이즈 캔슬링.</p>
+                <div className="btn-container">
+                    <button className = "first-btn">더 알아보기</button>
+                    <button className = "second-btn">구입하기</button>
+                </div>
+            </section>
+            <img className = "Poster-Img" src = "/AirPods.png" />
         </>
+
+        
     )
 }
 
