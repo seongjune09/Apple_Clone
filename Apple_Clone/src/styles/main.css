@@ -1,3 +1,5 @@
+
+
 .Main-Div {
     background-color: #161617CC;
     position: fixed;   
@@ -42,6 +44,7 @@
 .iPhone-Poster {
     position: relative;
     text-align: center;
+    margin-top : 40px;
     padding: 70px 0;
     background-color: #000;
     color: white;
@@ -55,10 +58,16 @@
     display: block;
 }
 
+.introduction-iphone {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
 .btn-container {
     display: flex;
-    justify-content: center; /* 가로 중앙 */
-    align-items: center;     /* 세로 중앙 */
+    justify-content: center; 
+    align-items: center;     
     gap: 30px;
 }
 
@@ -75,14 +84,32 @@
 .AirPods-Poster {
     position: relative;
     text-align: center;
-    padding: 30px 0;
+    padding: 50px 0;
     background-color: #f5f5f7;
     color: #000;
     overflow: hidden;
   }
 
-  .introduction {
+  .introduction-airpods {
     font-size: 30px;
     font-weight: bold;
   }
 
+.Watch-Poster {
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f5f5f7;
+    color: #000;
+    overflow: hidden;
+}
+
+.Watch-Img {
+    width : 1470px;
+}
+
+.Watch span:nth-child(1) { color: #000; font-weight: lighter;}
+
+.introduction-watch {
+    font-size: 30px;
+  }
