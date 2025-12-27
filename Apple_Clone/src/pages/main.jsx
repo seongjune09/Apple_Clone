@@ -32,6 +32,16 @@ function Main() {
             </section>
             <img className = "Poster-Img" src = "/iPhone.png" />
 
+            <section className = "iPhone-Poster2">
+                    <h1 className = "iPhone2">iPhone</h1>
+                    <p className = "introduction-iphone2">최신 세대 iPhone을 만나보세요.</p>
+                <div className="btn-container">
+                    <button className = "first-btn">더 알아보기</button>
+                    <button className = "second-btn">구입하기</button>
+                </div>
+            </section>
+            <img className = "Poster-Img" src = "/iPhone2.png" />
+
             <br></br>
 
             <section className = "AirPods-Poster">
