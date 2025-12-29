@@ -68,6 +68,13 @@ function Main() {
                 </div>
             </section>
             <img className = "Watch-Img" src = "/Watch.png" />
+
+
+            <footer>
+                
+
+
+            </footer>
         </>
 
         

@@ -88,11 +88,15 @@
 .first-btn {
     background-color: #0071e3;
     color : white;
+    height: 48px;
+    border-radius: 24px;
 }
 
 .second-btn {
     color: #0071e3;
     border : 1px solid #0071e3;
+    height: 48px;
+    border-radius: 24px;
 }
 
 .AirPods-Poster {
