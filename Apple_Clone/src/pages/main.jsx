@@ -4,7 +4,7 @@ function Main() {
     return (
         <>
             <div className = "Main-Div">
-                <img className = "Main-Apple" src = "./Apple.svg"></img>
+                <img className = "Main-Apple" src = "./Apple(white).svg"></img>
 
                 <div className = "Title-Container">
                     <a href="#">스토어</a>
@@ -71,7 +71,7 @@ function Main() {
 
 
             <footer>
-                
+
 
 
             </footer>
