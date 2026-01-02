@@ -136,3 +136,32 @@
 .introduction-watch {
     font-size: 30px;
   }
+
+  .footer {
+    background-color: #5A657726;
+    padding: 3rem 0;
+    color: #70798F;
+    margin: 0;
+    width: 100%;
+}
+
+.title {
+    color : #707070;
+    font-weight : bold;
+}
+
+.footer-container {
+    padding: 0 0 5rem 15rem;
+    margin: 0;
+}
+
+.ytube-icon {
+    width : 2rem;
+    padding-right : 1rem;
+}
+
+.github-icon {
+    width : 1.7rem;
+    margin-bottom : 0.1rem;
+}
+

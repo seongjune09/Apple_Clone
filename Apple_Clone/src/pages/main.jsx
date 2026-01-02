@@ -70,11 +70,11 @@ function Main() {
             <img className = "Watch-Img" src = "/Watch.png" />
 
 
-            <footer>
-
-
-
+            <footer className="footer">
+                <div className ="footer-container">
+                </div>
             </footer>
+
         </>
 
         
