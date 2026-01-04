@@ -1,4 +1,7 @@
-
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
 
 .Main-Div {
     background-color: #161617CC;
@@ -151,17 +154,11 @@
 }
 
 .footer-container {
-    padding: 0 0 5rem 15rem;
-    margin: 0;
+    padding: 0 170px 0 224px;
 }
 
-.ytube-icon {
-    width : 2rem;
-    padding-right : 1rem;
-}
+.footer-text {
+  position: relative;
 
-.github-icon {
-    width : 1.7rem;
-    margin-bottom : 0.1rem;
+  font-size : 12px;
 }
-
