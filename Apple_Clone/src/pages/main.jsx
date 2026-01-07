@@ -4,7 +4,11 @@ function Main() {
     return (
         <>
             <div className = "Main-Div">
-                <img className = "Main-Apple" src = "./Apple(white).svg"></img>
+                <img
+                    className="Main-Apple"
+                    src="./Apple(white).svg"
+                    onClick={() => window.location.reload()}
+                />
 
                 <div className = "Title-Container">
                     <a href="#">스토어</a>
