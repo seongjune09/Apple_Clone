@@ -15,6 +15,7 @@ function Main() {
                     <a href="#">Mac</a>
                     <a href="#">iPad</a>
                     <a href="#">iPhone</a>
+                    <a href="#">Vision</a>
                     <a href="#">Watch</a>
                     <a href="#">AirPods</a>
                     <a href="#">TV 및 홈</a>

@@ -1,7 +1,7 @@
 body {
   margin: 0;
   overflow-x: hidden;
-  padding-top: 44px;  
+  padding-top: 50px;  
 }
 
 .Main-Div {
@@ -10,7 +10,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 44px;       
+  height: 50px;       
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,7 +26,7 @@ body {
     margin-right : 40px;
     padding-left: 40px;
     display: flex;
-    gap : 50px;
+    gap : 40px;
     align-items: center;
     font-size : 11.5px;
 }
@@ -48,7 +48,6 @@ body {
 .iPhone-Poster {
     position: relative;
     text-align: center;
-    margin-top : 40px;
     padding: 70px 0;
     background-color: #000;
     color: white;
