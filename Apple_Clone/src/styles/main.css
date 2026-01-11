@@ -166,3 +166,12 @@ body {
 .nav {
   border-top: 1px;
 }
+
+.link {
+  color : #70798F;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color : #70798F;
+}
