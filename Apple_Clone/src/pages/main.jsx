@@ -26,6 +26,14 @@ function Main() {
                     <img className = "Basket-Img" src = "Basket.svg" />
                 </div>
             </div>
+            <img className = "iPad-sale-Img" src = "/iPad-sale.png" />
+            <section className = "iPad-sale-Poster">
+                <div className="btn-container">
+                    <button className = "second-btn" onClick={() => window.location.href = "https://www.apple.com/kr-edu/store"}>쇼핑하기</button>
+                </div>
+            </section>
+
+            <br></br>
 
             <section className = "iPhone-Poster">
                     <h1 className = "iPhone">iPhone 17 Pro</h1>
