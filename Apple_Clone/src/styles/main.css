@@ -144,3 +144,32 @@ body {
 .link:hover {
   color: #70798F;
 }
+
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+  padding: 40px 0;
+  border-top: 1px solid #d2d2d7;
+  margin-top: 40px;
+}
+
+.nav-column h4 {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1d1d1f;
+}
+
+.nav-column a {
+  display: block;
+  font-size: 11.5px;
+  color: #6e6e73;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.nav-column a:hover {
+  text-decoration: underline;
+}

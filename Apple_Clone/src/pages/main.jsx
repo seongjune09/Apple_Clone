@@ -107,11 +107,80 @@ function Main() {
                         기능은 변경될 수 있습니다. 일부 기능, 애플리케이션 및 서비스를 이용할 수 없는 국가나 언어도 있습니다.
                     </p>
 
-                    <div className = "nav">
+
+                    <div className="nav">
+                        <div className="nav-column">
+                            <h4>쇼핑 및 알아보기</h4>
+                            <a href="#">스토어</a>
+                            <a href="#">Mac</a>
+                            <a href="#">iPad</a>
+                            <a href="#">iPhone</a>
+                            <a href="#">Watch</a>
+                            <a href="#">Vision</a>
+                            <a href="#">AirPods</a>
+                            <a href="#">TV 및 홈</a>
+                            <a href="#">AirTag</a>
+                            <a href="#">액세서리</a>
+                        </div>
+
+                        <div className="nav-column">
+                            <h4>계정</h4>
+                            <a href="#">Apple 계정 관리</a>
+                            <a href="#">Apple Store 계정</a>
+                            <a href="#">iCloud.com</a>
+
+                            <h4>엔터테인먼트</h4>
+                            <a href="#">Apple One</a>
+                            <a href="#">Apple TV+</a>
+                            <a href="#">Apple Music</a>
+                            <a href="#">Apple Arcade</a>
+                            <a href="#">Apple Podcasts</a>
+                            <a href="#">Apple Books</a>
+                        </div>
+
+                        <div className="nav-column">
+                            <h4>Apple Store</h4>
+                            <a href="#">매장 찾기</a>
+                            <a href="#">Genius Bar</a>
+                            <a href="#">Today at Apple</a>
+                            <a href="#">Apple 캠프</a>
+                            <a href="#">Apple Store 앱</a>
+                            <a href="#">리퍼비시</a>
+                            <a href="#">Apple Trade In</a>
+                            <a href="#">할부 방식</a>
+                            <a href="#">주문 상태</a>
+                            <a href="#">쇼핑 도움말</a>
+                        </div>
+
+                        <div className="nav-column">
+                            <h4>비즈니스</h4>
+                            <a href="#">Apple과 비즈니스</a>
+                            <a href="#">비즈니스를 위한 쇼핑</a>
+
+                            <h4>교육</h4>
+                            <a href="#">Apple과 교육</a>
+                            <a href="#">대학 생활을 위한 쇼핑</a>
+                        </div>
+
+                        <div className="nav-column">
+                            <h4>Apple의 가치관</h4>
+                            <a href="#">손쉬운 사용</a>
+                            <a href="#">환경</a>
+                            <a href="#">개인정보 보호</a>
+                            <a href="#">공급망 혁신</a>
+
+                            <h4>Apple 정보</h4>
+                            <a href="#">Newsroom</a>
+                            <a href="#">Apple 리더십</a>
+                            <a href="#">채용 안내</a>
+                            <a href="#">윤리 및 규정 준수</a>
+                            <a href="#">이벤트</a>
+                            <a href="#">Apple 연락처</a>
+                        </div>
+                    </div>
                         
 
 
-                    </div>
                 </div>
             </footer>
 
