@@ -178,6 +178,10 @@ function Main() {
                             <a href="#">Apple 연락처</a>
                         </div>
                     </div>
+
+                    <p className = "footer-text">
+                        다양한 쇼핑 방법:<a>Apple Store를 방문</a>하거나, <a>리셀러</a>를 찾아보시나, <a>080-330-8877</a>번으로 전화하세요.
+                    </p>
                         
 
 
