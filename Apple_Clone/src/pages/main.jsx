@@ -180,8 +180,17 @@ function Main() {
                     </div>
 
                     <p className = "footer-text">
-                        다양한 쇼핑 방법:<a>Apple Store를 방문</a>하거나, <a>리셀러</a>를 찾아보시나, <a>080-330-8877</a>번으로 전화하세요.
+                        다양한 쇼핑 방법:
+                        <a className='a-tag'>Apple Store를 방문</a>하거나,
+                        <a className='a-tag'>리셀러</a>를 찾아보시나, 
+                        <a className='a-tag'>080-330-8877</a>번으로 전화하세요.
                     </p>
+
+                    <div className="nav2">
+                        <p>Copyright © 2026 Apple Inc. 모든 권리 보유.</p>
+
+
+                    </div>
                         
 
 
