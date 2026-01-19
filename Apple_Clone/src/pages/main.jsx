@@ -186,10 +186,25 @@ function Main() {
                         <a className='a-tag'>080-330-8877</a>번으로 전화하세요.
                     </p>
 
-                    <div className="nav2">
+                    <div className="footer-bottom">
+                    <div className="footer-bottom-left">
                         <p>Copyright © 2026 Apple Inc. 모든 권리 보유.</p>
+                        <div className="footer-links">
+                        <a href="#">개인정보 처리방침</a>
+                        <span>|</span>
+                        <a href="#">웹 사이트 이용 약관</a>
+                        <span>|</span>
+                        <a href="#">판매 및 환불</a>
+                        <span>|</span>
+                        <a href="#">법적 고지</a>
+                        <span>|</span>
+                        <a href="#">사이트 맵</a>
+                        </div>
+                    </div>
 
-
+                    <div className="footer-bottom-right">
+                        <p>대한민국</p>
+                    </div>
                     </div>
                         
 
