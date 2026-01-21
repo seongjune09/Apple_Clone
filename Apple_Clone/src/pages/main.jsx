@@ -11,17 +11,17 @@ function Main() {
                 />
 
                 <div className = "Title-Container">
-                    <a href="#">스토어</a>
-                    <a href="#">Mac</a>
-                    <a href="#">iPad</a>
-                    <a href="#">iPhone</a>
-                    <a href="#">Vision</a>
-                    <a href="#">Watch</a>
-                    <a href="#">AirPods</a>
-                    <a href="#">TV 및 홈</a>
-                    <a href="#">엔터테인먼트</a>
-                    <a href="#">액세서리</a>
-                    <a href="#">고객지원</a>
+                    <a href="https://www.apple.com/kr-edu/store">스토어</a>
+                    <a href="https://www.apple.com/kr/mac/">Mac</a>
+                    <a href="https://www.apple.com/kr/ipad/">iPad</a>
+                    <a href="https://www.apple.com/kr/iphone/">iPhone</a>
+                    <a href="https://www.apple.com/kr/watch/">Watch</a>
+                    <a href="https://www.apple.com/kr/apple-vision-pro/">Vision</a>
+                    <a href="https://www.apple.com/kr/airpods/">AirPods</a>
+                    <a href="https://www.apple.com/kr/tv-home/">TV 및 홈</a>
+                    <a href="https://www.apple.com/kr/services/">엔터테인먼트</a>
+                    <a href="https://www.apple.com/kr-edu/shop/accessories/all">액세서리</a>
+                    <a href="https://support.apple.com/ko-kr">고객지원</a>
                     <img className = "Search-Img" src = "Search.svg" />
                     <img className = "Basket-Img" src = "Basket.svg" />
                 </div>
@@ -190,15 +190,15 @@ function Main() {
                     <div className="footer-bottom-left">
                         <p>Copyright © 2026 Apple Inc. 모든 권리 보유.</p>
                         <div className="footer-links">
-                        <a href="#">개인정보 처리방침</a>
-                        <span>|</span>
-                        <a href="#">웹 사이트 이용 약관</a>
-                        <span>|</span>
-                        <a href="#">판매 및 환불</a>
-                        <span>|</span>
-                        <a href="#">법적 고지</a>
-                        <span>|</span>
-                        <a href="#">사이트 맵</a>
+                            <a href="#">개인정보 처리방침</a>
+                            <span>|</span>
+                            <a href="#">웹 사이트 이용 약관</a>
+                            <span>|</span>
+                            <a href="#">판매 및 환불</a>
+                            <span>|</span>
+                            <a href="#">법적 고지</a>
+                            <span>|</span>
+                            <a href="#">사이트 맵</a>
                         </div>
                     </div>
 
