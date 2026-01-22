@@ -175,6 +175,7 @@ body {
 
 .a-tag {
   color : #0066cc;
+  text-decoration : underline;
 }
 
 .footer-bottom {
@@ -189,8 +190,20 @@ body {
 
 .footer-bottom-left {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   gap: 8px;
+}
+
+.footer-bottom-top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-bottom-top p {
+  margin: 0;
+  white-space: nowrap;
 }
 
 .footer-links {
@@ -200,10 +213,20 @@ body {
 }
 
 .footer-links a {
-  color: #6e6e73;
+  color: #000000B8;
   text-decoration: none;
 }
 
-.footer-bottom-right {
+.footer-bottom-under {
   font-size: 12px;
+  color: #6e6e73;
+}
+
+.footer-bottom-right {
+  color : #000000B8;
+}
+
+.footer-tag {
+  color : #000000B8;
+  text-decoration: underline;
 }
