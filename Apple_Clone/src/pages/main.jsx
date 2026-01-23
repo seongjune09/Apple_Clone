@@ -192,24 +192,24 @@ function Main() {
                             <p>Copyright © 2026 Apple Inc. 모든 권리 보유.</p>
 
                             <div className="footer-links">
-                            <a href="#">개인정보 처리방침</a>
+                            <a href="https://www.apple.com/kr/legal/privacy/">개인정보 처리방침</a>
                             <span>|</span>
-                            <a href="#">웹 사이트 이용 약관</a>
+                            <a href="https://www.apple.com/kr/legal/internet-services/terms/site.html">웹 사이트 이용 약관</a>
                             <span>|</span>
-                            <a href="#">판매 및 환불</a>
+                            <a href="https://www.apple.com/kr-edu/shop/browse/open/salespolicies">판매 및 환불</a>
                             <span>|</span>
-                            <a href="#">법적 고지</a>
+                            <a href="https://www.apple.com/kr/legal/">법적 고지</a>
                             <span>|</span>
-                            <a href="#">사이트 맵</a>
+                            <a href="https://www.apple.com/kr/sitemap/">사이트 맵</a>
                             </div>
                         </div>
 
                         <div className="footer-bottom-under">
                             <p>
                             애플코리아 유한회사 | 대표이사: Mark Lee(마크리) | 주소: 서울특별시 강남구 영동대로 517 
-                            | 전화: 080-333-4000 | <a className='footer-tag'>https://support.apple.com/ko-kr</a> | 사업자등록번호: 120-81-84429 | 
+                            | 전화: 080-333-4000 | <a href ="https://support.apple.com/ko-kr" className='footer-tag'>https://support.apple.com/ko-kr</a> | 사업자등록번호: 120-81-84429 | 
                             <br></br>
-                            통신판매업신고번호: 제2011-서울강남-00810호 | 호스팅 서비스 제공: Apple Inc. | <a className='footer-tag'>사업자정보</a></p>
+                            통신판매업신고번호: 제2011-서울강남-00810호 | 호스팅 서비스 제공: Apple Inc. | <a href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=1208184429" className='footer-tag'>사업자정보</a></p>
                         </div>
                     </div>
 
