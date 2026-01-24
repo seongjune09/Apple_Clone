@@ -5,7 +5,7 @@ body {
 }
 
 .Main-Div {
-  background-color: #161617CC;
+  background-color: rgba(255, 255, 255, 0.7);
   position: fixed;
   top: 0;
   left: 0;
@@ -34,7 +34,7 @@ body {
 }
 
 .Title-Container a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 

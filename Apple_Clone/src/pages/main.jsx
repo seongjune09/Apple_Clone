@@ -6,7 +6,7 @@ function Main() {
             <div className = "Main-Div">
                 <img
                     className="Main-Apple"
-                    src="./Apple(white).svg"
+                    src="./Apple-Logo.svg"
                     onClick={() => window.location.reload()}
                 />
 
