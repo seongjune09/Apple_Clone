@@ -82,6 +82,45 @@ function Main() {
             </section>
             <img className = "Watch-Img" src = "/Watch.png" />
 
+
+            <section className="product-grid">
+                <div className="grid-item ipad-air">
+                    <h2>iPad Air</h2>
+                    <p>이제 막강한 성능의 M3 칩 탑재.</p>
+                    <div className="btns">
+                    <button className = "first-btn" onClick={() => window.location.href = "https://www.apple.com/kr/ipad-air/" }>더 알아보기</button>
+                    <button className = "second-btn" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-ipad/ipad-air"}>구입하기</button>
+                    </div>
+                </div>
+
+                <div className="grid-item macbook-air">
+                    <h2>MacBook Air</h2>
+                    <p>M4 칩 탑재로 성능도 하늘 높이.</p>
+                    <div className="btns">
+                    <button className = "first-btn" onClick={() => window.location.href = "https://www.apple.com/kr/macbook-air/"}>더 알아보기</button>
+                    <button className = "second-btn" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-mac/macbook-air"}>구입하기</button>
+                    </div>
+                </div>
+
+                <div className="grid-item ipad">
+                    <h2>iPad</h2>
+                    <p>이제 A16 칩의 속도로.</p>
+                    <div className="btns">
+                    <button className = "first-btn" onClick={() => window.location.href = "https://www.apple.com/kr/ipad-11/"}>더 알아보기</button>
+                    <button className = "second-btn" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-ipad/ipad"}>구입하기</button>
+                    </div>
+                </div>
+
+                <div className="grid-item watch">
+                    <h2>WATCH ULTRA 3</h2>
+                    <p>손목 위의 야수.</p>
+                    <div className="btns">
+                    <button className = "first-btn" onClick={() => window.location.href = "https://www.apple.com/kr/apple-watch-ultra-3/"}>더 알아보기</button>
+                    <button className = "second-btn" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-watch/apple-watch-ultra"}>구입하기</button>
+                    </div>
+                </div>
+            </section>
+
             <footer className="footer">
                 <div className ="footer-container">
                     <p className = "footer-text">

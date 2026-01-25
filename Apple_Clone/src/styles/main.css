@@ -4,6 +4,7 @@ body {
   padding-top: 50px;
 }
 
+/* Header (Top Navigation) */
 .Main-Div {
   background-color: rgba(255, 255, 255, 0.7);
   position: fixed;
@@ -38,6 +39,7 @@ body {
   text-decoration: none;
 }
 
+/* Main Poster Sections */
 .iPhone-Poster,
 .iPhone-Poster2,
 .AirPods-Poster,
@@ -56,7 +58,7 @@ body {
 
 .iPhone-Poster2,
 .AirPods-Poster,
-.Watch-Poster{
+.Watch-Poster {
   padding: 50px 0;
   background-color: #f5f5f7;
   color: #000;
@@ -72,6 +74,7 @@ body {
   margin-top: 40px;
 }
 
+/* Poster Images */
 .Poster-Img,
 .Watch-Img,
 .iPad-sale-Img {
@@ -79,6 +82,7 @@ body {
   display: block;
 }
 
+/* Text Styles */
 .introduction-iphone {
   font-size: 20px;
   font-weight: bold;
@@ -90,6 +94,7 @@ body {
   font-size: 30px;
 }
 
+/* Buttons */
 .btn-container {
   display: flex;
   justify-content: center;
@@ -116,11 +121,68 @@ body {
   background-color: #0071e3;
 }
 
+/* Watch Title Styling */
 .Watch span:nth-child(1) {
   color: #000;
   font-weight: lighter;
 }
 
+/* iPad Air / MacBook Air / iPad / Watch */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 12px;
+}
+
+.grid-item {
+  position: relative;
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  text-align: center;    
+}
+
+.grid-item h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.grid-item p {
+  font-size: 18px;
+}
+
+.grid-item .btns {
+  display: flex;
+  gap: 12px;
+}
+
+
+/* 카드별 배경 이미지 */
+.ipad-air {
+  background-image: url("/Ipad_Air.jpg");
+}
+
+.macbook-air {
+  background-image: url("/MacBook_Air.jpg");
+}
+
+.ipad {
+  background-image: url("/Ipad.jpg");
+}
+
+.watch {
+  background-image: url("/Apple_Watch.jpg");
+  color: white;
+}
+
+
+/* Footer */
 .footer {
   background-color: #8b95a626;
   padding: 3rem 0;
@@ -141,11 +203,7 @@ body {
   text-decoration: underline;
 }
 
-.link:hover {
-  color: #70798F;
-}
-
-
+/* Footer Navigation */
 .nav {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -173,11 +231,7 @@ body {
   text-decoration: underline;
 }
 
-.a-tag {
-  color : #0066cc;
-  text-decoration : underline;
-}
-
+/* Footer Bottom */
 .footer-bottom {
   border-top: 1px solid #d2d2d7;
   padding: 15px 0 30px;
@@ -190,26 +244,8 @@ body {
 
 .footer-bottom-left {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   gap: 8px;
-}
-
-.footer-bottom-top {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.footer-bottom-top p {
-  margin: 0;
-  white-space: nowrap;
-}
-
-.footer-links {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
 }
 
 .footer-links a {
@@ -217,16 +253,7 @@ body {
   text-decoration: none;
 }
 
-.footer-bottom-under {
-  font-size: 12px;
-  color: #6e6e73;
-}
-
-.footer-bottom-right {
-  color : #000000B8;
-}
-
 .footer-tag {
-  color : #000000B8;
+  color: #000000B8;
   text-decoration: underline;
 }
