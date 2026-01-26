@@ -88,26 +88,26 @@ function Main() {
                     <h2>iPad Air</h2>
                     <p>이제 막강한 성능의 M3 칩 탑재.</p>
                     <div className="btns">
-                    <button className = "first-btn" onClick={() => window.location.href = "https://www.apple.com/kr/ipad-air/" }>더 알아보기</button>
-                    <button className = "second-btn" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-ipad/ipad-air"}>구입하기</button>
+                    <button className = "section1" onClick={() => window.location.href = "https://www.apple.com/kr/ipad-air/" }>더 알아보기</button>
+                    <button className = "section2" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-ipad/ipad-air"}>구입하기</button>
                     </div>
                 </div>
 
                 <div className="grid-item macbook-air">
                     <h2>MacBook Air</h2>
-                    <p>M4 칩 탑재로 성능도 하늘 높이.</p>
+                    <p>하늘빛 새 컬러.<br></br>M4 칩 탑재로 성능도 하늘 높이.</p>
                     <div className="btns">
-                    <button className = "first-btn" onClick={() => window.location.href = "https://www.apple.com/kr/macbook-air/"}>더 알아보기</button>
-                    <button className = "second-btn" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-mac/macbook-air"}>구입하기</button>
+                    <button className = "section1" onClick={() => window.location.href = "https://www.apple.com/kr/macbook-air/"}>더 알아보기</button>
+                    <button className = "section2" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-mac/macbook-air"}>구입하기</button>
                     </div>
                 </div>
 
                 <div className="grid-item ipad">
                     <h2>iPad</h2>
-                    <p>이제 A16 칩의 속도로.</p>
+                    <p>이제 A16 칩의 속도로.<br></br>2배 더 커진 기본 저장 용량까지.</p>
                     <div className="btns">
-                    <button className = "first-btn" onClick={() => window.location.href = "https://www.apple.com/kr/ipad-11/"}>더 알아보기</button>
-                    <button className = "second-btn" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-ipad/ipad"}>구입하기</button>
+                    <button className = "section1" onClick={() => window.location.href = "https://www.apple.com/kr/ipad-11/"}>더 알아보기</button>
+                    <button className = "section2" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-ipad/ipad"}>구입하기</button>
                     </div>
                 </div>
 
@@ -115,8 +115,23 @@ function Main() {
                     <h2>WATCH ULTRA 3</h2>
                     <p>손목 위의 야수.</p>
                     <div className="btns">
-                    <button className = "first-btn" onClick={() => window.location.href = "https://www.apple.com/kr/apple-watch-ultra-3/"}>더 알아보기</button>
-                    <button className = "second-btn" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-watch/apple-watch-ultra"}>구입하기</button>
+                    <button className = "section1" onClick={() => window.location.href = "https://www.apple.com/kr/apple-watch-ultra-3/"}>더 알아보기</button>
+                    <button className = "section2" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-watch/apple-watch-ultra"}>구입하기</button>
+                    </div>
+                </div>
+                <div className="grid-item AirPodsPro">
+                    <h2>AirPods Pro 3</h2>
+                    <p>세계 최고의 인이어<br></br>액티브 노이즈 캔슬링.</p>
+                    <div className="btns">
+                    <button className = "section1" onClick={() => window.location.href = "https://www.apple.com/kr/apple-watch-ultra-3/"}>더 알아보기</button>
+                    <button className = "section2" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-watch/apple-watch-ultra"}>구입하기</button>
+                    </div>
+                </div>
+                <div className="grid-item TradeIn">
+                    <h2>Trade In</h2>
+                    <p>iPhone 13 이상의 모델을 보상 판매하면<br></br>₩240,000-₩1,030,000<br></br>상당의 크레딧.</p>
+                    <div className ="btns">
+                    <button className = "section1" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/trade-in"}>견적 확인하기</button>
                     </div>
                 </div>
             </section>

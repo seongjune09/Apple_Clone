@@ -151,10 +151,13 @@ body {
 .grid-item h2 {
   font-size: 36px;
   font-weight: 700;
+  margin-bottom: 10px;   
 }
 
 .grid-item p {
+  margin-top: 0;         
   font-size: 18px;
+  font-weight: bold;
 }
 
 .grid-item .btns {
@@ -178,6 +181,43 @@ body {
 
 .watch {
   background-image: url("/Apple_Watch.jpg");
+  color: white;
+}
+
+.AirPodsPro {
+  background-image: url("/Air_Pods.jpg");
+}
+
+.TradeIn {
+  background-image: url("/Iphone.jpg");
+}
+
+/* Buttons2 */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.section1 {
+  background-color: #0071e3;
+  color: white;
+  height: 40px;
+  border-radius: 24px;
+}
+
+.section2 {
+  background-color: transparent;     
+  border: 1px solid #0071e3;
+  height: 40px;
+  border-radius: 24px;
+  color: #0071e3;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.section2:hover {
+  background-color: #0071e3;          
   color: white;
 }
 
