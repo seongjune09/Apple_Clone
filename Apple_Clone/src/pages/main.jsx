@@ -1,7 +1,36 @@
+import { useEffect } from 'react';
 import '../styles/main.css';
 
 function Main() {
-    return (
+
+  useEffect(() => {
+    const savedY = sessionStorage.getItem('scrollY');
+    if (savedY) {
+      window.scrollTo(0, Number(savedY));
+    }
+
+    const saveScroll = () => {
+      sessionStorage.setItem('scrollY', window.scrollY);
+    };
+
+    window.addEventListener('scroll', saveScroll);
+
+    const handlePageShow = (e) => {
+      if (e.persisted) {
+        const y = sessionStorage.getItem('scrollY');
+        if (y) window.scrollTo(0, Number(y));
+      }
+    };
+
+    window.addEventListener('pageshow', handlePageShow);
+
+    return () => {
+      window.removeEventListener('scroll', saveScroll);
+      window.removeEventListener('pageshow', handlePageShow);
+    };
+  }, []);
+
+      return (
         <>
             <div className = "Main-Div">
                 <img
