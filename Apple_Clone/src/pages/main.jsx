@@ -113,6 +113,22 @@ function Main() {
 
 
             <section className="product-grid">
+                <div className="grid-item apple-privacy">
+                    <h2>AirPods Pro 3</h2>
+                    <p>세계 최고의 인이어<br></br>액티브 노이즈 캔슬링.</p>
+                    <div className="btns">
+                    <button className = "section1" onClick={() => window.location.href = "https://www.apple.com/kr/apple-watch-ultra-3/"}>더 알아보기</button>
+                    <button className = "section2" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-watch/apple-watch-ultra"}>구입하기</button>
+                    </div>
+                </div>
+                    <div className="grid-item watch2">
+                    <h2>AirPods Pro 3</h2>
+                    <p>세계 최고의 인이어<br></br>액티브 노이즈 캔슬링.</p>
+                    <div className="btns">
+                    <button className = "section1" onClick={() => window.location.href = "https://www.apple.com/kr/apple-watch-ultra-3/"}>더 알아보기</button>
+                    <button className = "section2" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-watch/apple-watch-ultra"}>구입하기</button>
+                    </div>
+                </div>
                 <div className="grid-item ipad-air">
                     <h2>iPad Air</h2>
                     <p>이제 막강한 성능의 M3 칩 탑재.</p>

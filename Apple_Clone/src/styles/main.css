@@ -167,6 +167,14 @@ body {
 
 
 /* 카드별 배경 이미지 */
+.apple-privacy {
+  background-image: url("/Apple_Privacy.jpg");
+}
+
+.watch2 {
+  background-image: url("/Apple_Watch2.jpg");
+}
+
 .ipad-air {
   background-image: url("/Ipad_Air.jpg");
 }
