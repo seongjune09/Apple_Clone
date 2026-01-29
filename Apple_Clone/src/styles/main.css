@@ -167,12 +167,9 @@ body {
 
 
 /* 카드별 배경 이미지 */
-.apple-privacy {
-  background-image: url("/Apple_Privacy.jpg");
-}
-
 .watch2 {
   background-image: url("/Apple_Watch2.jpg");
+  color : white;
 }
 
 .ipad-air {
@@ -185,11 +182,6 @@ body {
 
 .ipad {
   background-image: url("/Ipad.jpg");
-}
-
-.watch {
-  background-image: url("/Apple_Watch.jpg");
-  color: white;
 }
 
 .AirPodsPro {
@@ -304,4 +296,11 @@ body {
 .footer-tag {
   color: #000000B8;
   text-decoration: underline;
+}
+
+.watch-btn {
+  background-color: white;
+  color: black;
+  height: 40px;
+  border-radius: 24px;
 }

@@ -113,20 +113,11 @@ function Main() {
 
 
             <section className="product-grid">
-                <div className="grid-item apple-privacy">
-                    <h2>AirPods Pro 3</h2>
-                    <p>세계 최고의 인이어<br></br>액티브 노이즈 캔슬링.</p>
-                    <div className="btns">
-                    <button className = "section1" onClick={() => window.location.href = "https://www.apple.com/kr/apple-watch-ultra-3/"}>더 알아보기</button>
-                    <button className = "section2" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-watch/apple-watch-ultra"}>구입하기</button>
-                    </div>
-                </div>
                     <div className="grid-item watch2">
-                    <h2>AirPods Pro 3</h2>
-                    <p>세계 최고의 인이어<br></br>액티브 노이즈 캔슬링.</p>
+                    <h2>Watch</h2>
+                    <p>새로운 Black Unity 밴드.<br></br>연결의 힘에서 영감을 받다.</p>
                     <div className="btns">
-                    <button className = "section1" onClick={() => window.location.href = "https://www.apple.com/kr/apple-watch-ultra-3/"}>더 알아보기</button>
-                    <button className = "section2" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-watch/apple-watch-ultra"}>구입하기</button>
+                    <button className = "watch-btn" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/product/mhuk4fe/a/42mm-black-unity-%EB%B8%8C%EB%A0%88%EC%9D%B4%EB%93%9C-%EC%86%94%EB%A1%9C-%EB%A3%A8%ED%94%84-unity-connection-%EC%82%AC%EC%9D%B4%EC%A6%88-0"}>쇼핑하기</button>
                     </div>
                 </div>
                 <div className="grid-item ipad-air">
@@ -153,15 +144,6 @@ function Main() {
                     <div className="btns">
                     <button className = "section1" onClick={() => window.location.href = "https://www.apple.com/kr/ipad-11/"}>더 알아보기</button>
                     <button className = "section2" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-ipad/ipad"}>구입하기</button>
-                    </div>
-                </div>
-
-                <div className="grid-item watch">
-                    <h2>WATCH ULTRA 3</h2>
-                    <p>손목 위의 야수.</p>
-                    <div className="btns">
-                    <button className = "section1" onClick={() => window.location.href = "https://www.apple.com/kr/apple-watch-ultra-3/"}>더 알아보기</button>
-                    <button className = "section2" onClick={() => window.location.href = "https://www.apple.com/kr-edu/shop/buy-watch/apple-watch-ultra"}>구입하기</button>
                     </div>
                 </div>
                 <div className="grid-item AirPodsPro">
