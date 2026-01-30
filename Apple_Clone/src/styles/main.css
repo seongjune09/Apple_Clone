@@ -40,6 +40,7 @@ body {
 }
 
 /* Main Poster Sections */
+.Valentine-Poster,
 .iPhone-Poster,
 .iPhone-Poster2,
 .AirPods-Poster,
@@ -56,6 +57,7 @@ body {
   color: white;
 }
 
+.Valentine-Poster,
 .iPhone-Poster2,
 .AirPods-Poster,
 .Watch-Poster {
@@ -80,6 +82,10 @@ body {
 .iPad-sale-Img {
   width: 1470px;
   display: block;
+}
+
+.Valentine_Day {
+  width : 1470px;
 }
 
 /* Text Styles */

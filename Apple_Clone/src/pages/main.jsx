@@ -55,14 +55,24 @@ function Main() {
                     <img className = "Basket-Img" src = "Basket.svg" />
                 </div>
             </div>
+
+            <section className = "Valentine-Poster">
+                    <h1 className = "Valentine">밸런타인데이</h1>
+                    <p className = "introduction-iphone">누구나 한눈에 반할 선물.</p>
+                <div className="btn-container">
+                    <button className = "first-btn" onClick={() => window.location.href = "https://www.apple.com/kr/iphone/"}>쇼핑하기</button>
+                </div>
+                <img className = "Valentine_Day" src = "/Valentine_Day.png" />
+            </section>
+
+            <br></br>
+
             <img className = "iPad-sale-Img" src = "/iPad-sale.png" />
             <section className = "iPad-sale-Poster">
                 <div className="btn-container">
                     <button className = "second-btn" onClick={() => window.location.href = "https://www.apple.com/kr-edu/store"}>쇼핑하기</button>
                 </div>
             </section>
-
-            <br></br>
 
             <section className = "iPhone-Poster">
                     <h1 className = "iPhone">iPhone 17 Pro</h1>
