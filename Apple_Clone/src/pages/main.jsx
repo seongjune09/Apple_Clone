@@ -74,6 +74,8 @@ function Main() {
                 </div>
             </section>
 
+            <br></br>
+
             <section className = "iPhone-Poster">
                     <h1 className = "iPhone">iPhone 17 Pro</h1>
                     <p className = "introduction-iphone">전방위 Pro.</p>
