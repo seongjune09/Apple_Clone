@@ -114,7 +114,7 @@ Apple의 심플하면서도 세련된 디자인을 구현하며 CSS 레이아웃
 
 ---
 
-# [▶ 시연영상 확인하기](https://youtu.be/fkGPNOpm8QI)
+# [▶ 시연 영상 확인하기](https://youtu.be/fkGPNOpm8QI)
 
 ---
 
